@@ -1,4 +1,5 @@
-/*#include<stdio.h>
+// 1) example
+#include<stdio.h>
 
 int main(){
     int num;
@@ -6,7 +7,9 @@ int main(){
     printf("enter the number: \n");
     scanf("%d", &num);
 
-    if(num & 1 == 1){
+    if(num & 1 == 1) // this condition will check the last bit if it is 1 then odd else even,
+                     //  for eg, 0110 is even and 0111 is odd
+    {
         printf("%d is odd number!\n", num);
     }
     else{
@@ -14,9 +17,10 @@ int main(){
     }
 
     return 0;
-}*/
+}
 
-/*#include<stdio.h>
+// 2) example
+#include<stdio.h>
 
 int main(){
     int num;
@@ -34,12 +38,13 @@ int main(){
             zeros++;
         }
     }
-    printf("number of 1's in %d: %d\n", num, ones);
-    printf("number of 0's in %d: %d\n", num, zeros);
+    printf("number of 1's in %d: %d\n", num, ones); //prints how many 1's are ther in a number
+    printf("number of 0's in %d: %d\n", num, zeros); //prints how many 0's are ther in a number
 
     return 0;
-}*/
+}
 
+// 3) example
 #include<stdio.h>
 
 int main(){
@@ -50,10 +55,12 @@ int main(){
 
     res = n & (n - 1);
 
-    if(res == 0){
+    if(res == 0) // condition will check that the number is a power of 2 or not
+    {
          printf("%d is a power of 2.\n", n);
     }
     else{
         printf("%d is not a power of 2.\n", n);
     }
+    return 0;
 }

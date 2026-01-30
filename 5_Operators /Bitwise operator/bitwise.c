@@ -6,8 +6,8 @@
 // ^ - XOR operator, when both bits are same output is 0(zero)
 
 // example shows difference btw bitwise and logical operator
-
-/*#include<stdio.h>
+// 1) example
+#include<stdio.h>
 
 int main(){
     int x = 2, y = 3;  //x=1= 0000 0010 and y=2= 0000 0011
@@ -22,10 +22,10 @@ int main(){
     }
 
     return 0;
-}*/
+}
 
-
-/*#include<stdio.h>
+// 2) example
+#include<stdio.h>
 
 int main(){
     int x = 2, y = 3;
@@ -39,10 +39,11 @@ int main(){
     printf("x >> y: %d\n", x >> y);  // a/2^n = 2^(3), where a=2,n=3, so 2/2^(3)= 2/8= 0
 
     return 0;
-}*/
+}
 
 // example of left shift operator
-/*#include<stdio.h>
+// 3) example
+#include<stdio.h>
 
 int main(){
     int x = 3;
@@ -50,10 +51,11 @@ int main(){
     printf("%d\n", x << 1); // here 3 << 1 means, 3*2^(1) = 6
     
     return 0;
-}*/
+}
 
 // example of right shift operator
-/*#include<stdio.h>
+// 4) example
+#include<stdio.h>
 
 int main(){
     int x = 4;
@@ -61,10 +63,11 @@ int main(){
     printf("%d\n", x >> 1); // here 4 >> 1 means, 4/2^(1) = 2
     
     return 0;
-}*/
+}
 
 // example of left shift operator
-/*#include<stdio.h>
+// 4) example
+#include<stdio.h>
 
 int main(){
     int x = 3;
@@ -72,10 +75,11 @@ int main(){
     printf("%d\n", x << 2); // here 3 << 2 means, 3*2^(2) = 12
     
     return 0;
-}*/
+}
 
 // example of right shift operator
-/*#include<stdio.h>
+// 5) example
+#include<stdio.h>
 
 int main(){
     int x = 8;
@@ -83,10 +87,11 @@ int main(){
     printf("%d\n", x >> 2); // here 8 >> 2 means, 8/2^(2) = 2
     
     return 0;
-}*/
+}
 
 //example of XOR operator
-/*#include<stdio.h>
+// 6) example
+#include<stdio.h>
 
 int main(){
     int x = 2, y = 3; //x=2= 0000 0010 and y=3= 0000 0011
@@ -96,9 +101,10 @@ int main(){
                            //  0000 0001 = ans = 1
     
     return 0;
-}*/
+}
 
 // another example of XOR operator
+// 7) example
 #include<stdio.h>
 
 int main(){

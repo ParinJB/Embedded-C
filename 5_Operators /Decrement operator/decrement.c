@@ -1,4 +1,5 @@
 //example shows how lexical analyzer will works with expression which has decrement operator
+// 1) ex
 #include<stdio.h>
 
 int main(){
@@ -9,6 +10,7 @@ int main(){
 }
 
 //example of pre decrement operator
+// 2) ex
 #include<stdio.h>
 
 int main(){
@@ -19,6 +21,7 @@ int main(){
 }
 
 //this example shows which is the right way to declare the decrement operator
+// 3) ex
 #include<stdio.h>
 
 int main(){
@@ -32,6 +35,7 @@ int main(){
 }
 
 // post decrement
+// 4) ex
 #include<stdio.h>
 
 int main(){
@@ -44,6 +48,7 @@ int main(){
 }
 
 // pre decrement
+// 5) ex
 #include<stdio.h>
 
 int main(){

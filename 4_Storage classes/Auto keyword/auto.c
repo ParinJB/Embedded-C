@@ -2,7 +2,7 @@
 
 int main(){
 
-    auto int a;
+    auto int a; // if we will not mention auto then also it is by default auto
     printf("%d\n", a);
     return 0;
 }

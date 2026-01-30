@@ -2,6 +2,7 @@
 // *, /, % has highest precedence
 // +, - has lowest
 
+// 1) example
 #include<stdio.h>
 
 int main(){
@@ -11,22 +12,6 @@ int main(){
     printf("a + b - c = %d\n", a+b-c);
     printf("a + b * c = %d\n", a+b*c);
     printf("a %% b = %d\n", a%b);
-
-    return 0;
-}
-
-// all arithmatic operators
-#include <stdio.h>
-
-int main() {
-
-    int a = 25, b = 5;
-    printf("a + b = %d\n", a + b);
-    printf("a - b = %d\n", a - b);
-    printf("a * b = %d\n", a * b);
-    printf("a / b = %d\n", a / b);
-    printf("a %% b = %d\n", a % b);
-
 
     return 0;
 }

@@ -1,6 +1,6 @@
 //examples of if loop
 
-/*#include<stdio.h>
+#include<stdio.h>
 
 int main(){
 
@@ -11,11 +11,11 @@ int main(){
 
     return 0;
 
-}*/
+}
 
 //example of if-else loop
 
-/*#include<stdio.h>
+#include<stdio.h>
 
 int main(){
 
@@ -30,11 +30,11 @@ int main(){
 
     return 0;
 
-}*/
+}
 
 //example of nested if-else loop
 
-/*#include<stdio.h>
+#include<stdio.h>
 
 int main(){
 
@@ -56,7 +56,7 @@ int main(){
 
     return 0;
 
-}*/
+}
 
 // example of if-else ladder
 #include<stdio.h>

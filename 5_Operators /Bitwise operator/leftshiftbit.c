@@ -5,7 +5,7 @@
 //Working with registers / flags
 
 //example of set bit 
-
+// 1) ex
 #include<stdio.h>
 
 int main(){
@@ -29,7 +29,7 @@ int main(){
 }
 
 //program to toggle(compliment) a bit, we can also swap the number by using this xor operator
-
+// 2) ex
 #include<stdio.h>
 
 int main(){
@@ -55,7 +55,7 @@ int main(){
 }
 
 //program to clear the bit
-
+// 3) ex
 #include<stdio.h>
 
 int main(){
@@ -79,7 +79,7 @@ int main(){
 }
 
 //program to find the particular bit is set or clear
-
+// 4) ex
 #include<stdio.h>
 
 int main(){
