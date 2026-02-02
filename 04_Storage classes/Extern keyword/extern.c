@@ -1,3 +1,4 @@
+// extern stores in Data segment
 // example of extern modifier
 #include<stdio.h>
 

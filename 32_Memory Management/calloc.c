@@ -1,4 +1,7 @@
 //calloc() allocates memory and initializes it to zero
+//Allocates memory for multiple blocks
+//When you want clean/zeroed memory, Counters, frequency arrays
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

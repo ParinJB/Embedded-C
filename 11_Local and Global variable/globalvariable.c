@@ -9,7 +9,6 @@ int main(){
     int var = 8;
     printf("%d\n", var); // this will prints 8 as a output
     fun();
-
     return 0;
 }
 

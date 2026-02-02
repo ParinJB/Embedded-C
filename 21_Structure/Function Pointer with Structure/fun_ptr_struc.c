@@ -13,6 +13,7 @@ void display(struct student *s){
     printf("ID    : %d\n", s -> id);
     printf("Age   : %d\n", s -> age);
 }
+
 #include<stdio.h>
 
 int main(){

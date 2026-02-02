@@ -1,3 +1,4 @@
+//volatile variable can change at any time, outside the control of this program
 #include<stdio.h>
 
 int main(){

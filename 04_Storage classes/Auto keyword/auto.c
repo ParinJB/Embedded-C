@@ -1,3 +1,5 @@
+// auto stores in Stack memory
+
 #include<stdio.h>
 
 int main(){

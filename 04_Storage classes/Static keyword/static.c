@@ -1,3 +1,4 @@
+// static stores in Data segment
 // 1) example
 // example of without using static keyword
 #include<stdio.h>
