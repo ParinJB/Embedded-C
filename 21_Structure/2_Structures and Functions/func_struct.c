@@ -10,7 +10,7 @@ struct employee
     int exp;
 };
 
-void display(struct employee e[], int count); // declaration of the displya function
+void display(struct employee e[], int count); // declaration of the display function
 
 int main(){
     struct employee e[2];

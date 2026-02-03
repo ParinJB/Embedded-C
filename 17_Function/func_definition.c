@@ -1,4 +1,4 @@
-// function defination consists block of code which is able to preform specific task
+// function definition consists block of code which is able to preform specific task
 // 1) example
 #include<stdio.h>
 
