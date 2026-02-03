@@ -17,38 +17,3 @@ int main(){
     return 0;
 
 }
-
-// 2) example
-#include<stdio.h>
-
-int fun(int n){
-    if(n == 1){
-        return 1;
-    }else{
-        return 1 + fun(n - 1);
-    }
-}
-
-int main(){
-    int n = 5;
-    printf("%d\n", fun(n));
-    return 0;
-}
-
-
-// 3) finding a facorial using recursion function
-#include<stdio.h>
-
-int fact(int n){
-    if(n == 1){
-        return 1;
-    }else{
-        return n * fact(n - 1);
-    }
-}
-
-int main(){
-    int n = 4;
-    printf("factorial of a number %d = %d\n", n, fact(n));
-    return 0;
-}
