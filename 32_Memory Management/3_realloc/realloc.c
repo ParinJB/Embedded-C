@@ -1,0 +1,23 @@
+//realloc() - Used to resize previously allocated memory
+//Can increase or decrease size , May move memory to a new location
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    int *arr;
+    arr = (int *)malloc(2 * sizeof(int)); //8 bytes memory is allocated on the heap
+    arr[0] = 10;
+    arr[1] = 20;
+    
+    arr = (int *)realloc(arr, 4 * sizeof(int));
+    arr[2] = 30;
+    arr[3] = 40;
+    
+    for (int i = 0; i < 4; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    free(arr);
+    return 0;
+}
