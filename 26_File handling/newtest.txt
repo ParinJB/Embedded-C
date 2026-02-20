@@ -1,3 +1,0 @@
-student name  : katha
-student age   : 20
-student marks : 88.00
